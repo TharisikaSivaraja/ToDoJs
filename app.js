@@ -51,3 +51,6 @@ function deleteTodo(e) {
 }
 
 document.getElementById('clearAll').addEventListener('click', handleClearAll);
+function handleClearAll(e) {
+    document.querySelector('ul').innerHTML = '';
+}
