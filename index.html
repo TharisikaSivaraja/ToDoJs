@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JavaScript Todo App</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+  <header class="logo">
+    <a href="https://codingthesmartway.com" target="_blank">
+            <img class="logo" src="img.png" alt="CodingTheSmartWay.com" height="60px" width="40px">
+        </a>
+
+        <h2 class="headline">Vanilla JavaScript Todo App</h2>
+  </header>
+
+  <div class="main">
+    <form>
+            <input type="text" placeholder="New Todo ...">
+            <button type="submit"><i class="fas fa-plus-square"></i></button>
+        </form>
+        <div class="todoList">
+            <ul>
+            </ul>
+            <a class="clearAll" id="clearAll">Clear All</a>
+        </div>
+  </div>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
